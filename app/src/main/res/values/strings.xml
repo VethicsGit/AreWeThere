@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AWTY</string>
+    <string name="play_easy_mode">PLAY EASY MODE</string>
+    <string name="play_trip_mode">PLAY TIME MODE</string>
+    <string name="how_to_play">HOW TO PLAY</string>
+    <string name="score">You found 15 items
+                            and score </string>
+</resources>

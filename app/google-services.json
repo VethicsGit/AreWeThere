@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "288645382945",
+    "firebase_url": "https://arewethere-a77cf.firebaseio.com",
+    "project_id": "arewethere-a77cf",
+    "storage_bucket": "arewethere-a77cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288645382945:android:50e14e297c99a93b",
+        "android_client_info": {
+          "package_name": "com.nanny.AreWeThere"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288645382945-r1bknf7vqhcl25cs9miue5dn095vsdnj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_ZIzbEwIM5JcfrxUYExSEfhviJDl42l4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

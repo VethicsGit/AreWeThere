@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:theme="@android:style/Theme.Translucent"
+    android:background="#e66301"
+    android:layout_height="wrap_content">
+
+
+
+
+    <TextView
+        android:id="@+id/time_tip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tip!!!"
+        android:textColor="#FFFFFF98"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"/>
+
+
+
+    <TextView
+        android:id="@+id/time_instru"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#FFFFFF98"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        android:layout_margin="12dp"
+        android:text="Enter the time (in minutes) till you reach your destination (ask Mum or Dad).You are now playing against the clock. Find all the items before the time runs out! The quicker you finish the more points you get!"/>
+
+
+    <TextView
+        android:id="@+id/time_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF98"
+        android:gravity="center"
+        android:visibility="gone"
+        android:text="tap on special words with square box to earn 5 points"
+        android:textSize="28dp"
+        />
+    <Button
+        android:id="@+id/time_start_play"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="  Play now  "
+        android:background="@drawable/rounded_bg_corner"
+        android:layout_marginBottom="10dp"
+        android:textColor="#FF1100"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:padding="10dp"
+        android:textSize="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android = "http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools = "http://schemas.android.com/tools"
+    android:layout_width = "match_parent"
+    android:layout_height = "match_parent"
+    android:background="@drawable/backgound1"
+    android:orientation="vertical"
+    tools:context = ".DisplayItem">
+
+    <RelativeLayout
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_margin="5dp"
+        android:id="@+id/buttonlayout">
+
+    <ImageView
+        android:layout_width = "100dp"
+        android:layout_height = "80dp"
+        android:src="@drawable/areyouthereyet_small"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/logoimageview"/>
+
+        <ImageView
+            android:layout_width = "40dp"
+            android:layout_height = "40dp"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:id="@+id/closeSignImageView"
+            android:layout_alignParentRight="true"
+            android:background = "@drawable/rounded_bg_corner"
+            android:src = "@drawable/closebutton" />
+
+        <ImageView
+            android:layout_width = "40dp"
+            android:layout_height = "40dp"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/volImageView"
+            android:layout_alignParentRight="true"
+            android:background = "@drawable/rounded_bg_corner"
+            android:src = "@drawable/volume" />
+
+
+        <ImageView
+            android:layout_width = "40dp"
+            android:layout_height = "40dp"
+            android:layout_marginTop="5dp"
+            android:padding="8dp"
+            android:layout_marginRight="50dp"
+            android:id="@+id/volImageView2"
+            android:layout_alignParentRight="true"
+            android:background = "@drawable/rounded_bg_corner"
+            android:src = "@drawable/volume" />
+
+        <TextView
+            android:id="@+id/point"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" 00 "
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:textColor="@color/orange_text"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/rounded_bg_corner"/>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width = "wrap_content"
+        android:layout_height = "wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/buttonlayout"
+        android:layout_centerVertical="true"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:id="@+id/listRecyclerView2"/>
+</RelativeLayout>

@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.AppCompat"
+    android:background="@drawable/backgound"
+    tools:context=".Tap_Words">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/areyouthereyet_small"/>
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TREE"
+        android:clickable="true"
+        android:layout_marginTop="90dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#FF0000"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="193dp"
+        android:clickable="true"
+        android:text="BLAD MAN"
+        android:textColor="#9D7142"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/text2"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+android:layout_marginLeft="50dp"
+        android:clickable="true"
+
+        android:text="BEACH"
+        android:textColor="#585B53"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:clickable="true"
+        android:visibility="gone"
+        android:layout_above="@+id/text2"
+        android:layout_centerHorizontal="true"
+        android:text="POLICE MAN"
+        android:textColor="#07FD03"
+        android:textSize="30dp" />
+
+
+    <TextView
+        android:id="@+id/countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3"
+        android:textColor="#FF0000"
+        android:textSize="80dp"
+        android:layout_centerInParent="true"/>
+
+    <TextView
+        android:id="@+id/text4"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="320dp"
+        android:text="RED CAR"
+        android:clickable="true"
+
+        android:layout_marginLeft="20dp"
+        android:textColor="#3DE9EE"
+        android:textSize="30dp" />
+    <TextView
+        android:id="@+id/text5"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRAIN"
+        android:layout_marginTop="120dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="50dp"
+        android:textColor="#E26500"
+        android:clickable="true"
+
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text6"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="108dp"
+        android:text="SKATEBOARD"
+        android:layout_marginLeft="80dp"
+        android:clickable="true"
+
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text7"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="90dp"
+android:layout_marginRight="50dp"
+        android:clickable="true"
+
+        android:layout_alignParentRight="true"
+        android:text="DOG"
+        android:textColor="#7B0680"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text8"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text3"
+android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:text="HOSPITAL"
+        android:clickable="true"
+
+        android:textColor="#0000FF"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/text10"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="149dp"
+        android:text="RED"
+        android:layout_marginLeft="20dp"
+        android:clickable="true"
+        android:textColor="#FF00FF"
+        android:textSize="28dp" />
+
+    <TextView
+        android:id="@+id/text11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_below="@+id/text5"
+        android:clickable="true"
+        android:text="MAN"
+        android:textColor="#FFFF00"
+        android:textSize="30dp" />
+
+
+
+    <TextView
+        android:id="@+id/finding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" FINDING ITEMS...."
+        android:textColor="#FFFFFF"
+        android:textSize="28dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"/>
+
+
+</RelativeLayout>

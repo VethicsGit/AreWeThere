@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nanny.AreWeThere">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".DisplayItem"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Tap_Words"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TimerScreen"
+            android:screenOrientation="portrait"/>
+
+        <service
+            android:name=".BackgroundSoundService"
+            android:enabled="true" />
+        <service android:name=".BackgroundSoundServiceTap"
+            android:enabled="true"/>
+
+        <service android:name=".BackgroungSoundServiceGold"
+            android:enabled="true"/>
+
+        <service android:name=".BackgroundSoundServiceGameoverHappy"
+            android:enabled="true"/>
+
+        <service android:name=".BackgroundSoundServiceGameoverSad"
+            android:enabled="true"/>
+        <service android:name=".BackgroundSoundServiceTicking"
+            android:enabled="true"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/orange_text"
+    android:layout_height="wrap_content">
+
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:padding="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/closebutton" />
+
+    <TextView
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOW TO PLAY"
+        android:textColor="#FFFFFF98"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:layout_below="@id/play"
+        android:textColor="#FFFFFF98"
+        android:layout_margin="20dp"
+        android:text="ARE WE THERE YET? IS A FUN GAME TO PLAY WHEN YOU ARE IN THE CAR.SIMPLY SELECT THE ITEMS AS YOU SEE THEM. FOR EACH ITEM YOU SEE YOU GET A POINT RHE GAME IS OVER WHEN YOU'VE SELECTED EVERY ITEM AT LEAST ONCE. YOU CAN ALSO PLAY AGAIN THE TIME MODE. "/>
+</RelativeLayout>
